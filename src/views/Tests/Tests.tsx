@@ -6,18 +6,18 @@ export default function Tests() {
   return (
     <Template>
       <div>
-        <div class="test">
-          <div class="controls" id="snapshot">
-            <i class="fas fa-camera"></i>
+        <div className="test">
+          <div className="controls" id="snapshot">
+            <i className="fas fa-camera"></i>
           </div>
-          <div class="controls" id="play">
-            <i class="fas fa-play"></i>
+          <div className="controls" id="play">
+            <i className="fas fa-play"></i>
           </div>
         </div>
-        <div class="url-input">
+        <div className="url-input">
           <input name="url" placeholder="url" value={url} id="input" />
         </div>
-        <div class="img-placeholder">
+        <div className="img-placeholder">
           <canvas id="img-canvas"></canvas>
         </div>
       </div>
